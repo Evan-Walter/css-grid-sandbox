@@ -16,6 +16,7 @@ body {
   max-width: 960px;
   margin: 100px auto;
   padding: 10px;
+  display: flex;
 }
 
 .item {
