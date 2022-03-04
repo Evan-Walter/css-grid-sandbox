@@ -19,7 +19,8 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
-  
+  align-items: end;
+  justify-content: end;
   /* column-gap: 10px;
   row-gap: 10px; */
   /* grid-auto-rows: minmax(200px, auto); */
@@ -32,4 +33,11 @@ body {
   font-size: 20px;
   padding: 20px;
   border: skyblue 1px solid;
+}
+
+.item:nth-of-type(2) {
+  height: 100px;
+  width: 100px;
+  align-self: center;
+  justify-self: center;
 }
