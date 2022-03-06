@@ -25,3 +25,23 @@ nav {
   padding: 20px;
   border: skyblue 1px solid;
 }
+
+header {
+  grid-area: header;
+}
+
+nav {
+  grid-area: nav;
+}
+
+main {
+  grid-area: content;
+}
+
+aside {
+  grid-area: sidebar;
+}
+
+footer {
+  grid-area: footer;
+}
